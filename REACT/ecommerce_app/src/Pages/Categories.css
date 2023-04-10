@@ -1,0 +1,13 @@
+.categoriesContainer{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.productsContainer{
+    width: 75%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}

@@ -1,0 +1,38 @@
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: #F2D7D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  width: 180px;
+  margin-top: 15px;
+  border: none;
+  background-color: #f3858e;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  font-weight:700;
+  box-shadow: 1.3px 1px 3px #e96772;
+}
+
+.line{
+  width: 100%;
+  border-top: 2px solid #48484a;
+  margin-top: 210px;
+  position: relative;
+  background-color: forestgreen;
+
+}
+.text{
+  background-color: #F2D7D9;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: -35px;
+  left: 40%;
+  color: #48484a;
+}

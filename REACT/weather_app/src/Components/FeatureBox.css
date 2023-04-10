@@ -1,0 +1,9 @@
+.featureBoxContainer{
+    background-color: #F2D7D9;
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+    padding-bottom: 90px;
+
+}

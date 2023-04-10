@@ -1,0 +1,9 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin-top: 300px;
+    margin-left: 600px;
+    background-color: crimson;
+}

@@ -1,0 +1,12 @@
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35px;
+    border-bottom: 2px  solid black;
+    border-top:2px  solid black ;
+    border-left: 2px  solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

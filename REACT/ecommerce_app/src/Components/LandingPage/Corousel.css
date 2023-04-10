@@ -1,0 +1,53 @@
+.corouserContainer{
+    width: 99%;
+    height: 350px;
+    background-color: white;
+    box-shadow: 2px 2px 4px #afacad;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    position: relative;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.ImgContainer{
+    position: absolute;
+    height: 97%;
+    display: flex;
+    align-items: center;
+    top: 4px;
+    background-color: white;
+    transition: all 1s ease;
+}
+.cImg{
+    width: 97%;
+    height: 100%;
+    padding: 0px 15px;
+}
+
+.navigatorR{
+    position: absolute;
+    width: 40px;
+    height: 110px;
+    background-color: rgb(250, 248, 248);
+    right: 0px;
+    top: 37%;
+    box-shadow: 2px 2px 5px rgb(177, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navigatorL{
+    position: absolute;
+    width: 40px;
+    height: 110px;
+    background-color: rgb(250, 248, 248);
+    top: 37%;
+    left: 0;
+    box-shadow: 2px 2px 5px rgb(177, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

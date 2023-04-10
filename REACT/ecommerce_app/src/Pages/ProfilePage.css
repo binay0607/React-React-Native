@@ -1,0 +1,76 @@
+.profilePageContainer{
+    display: flex;
+    width: 100%;
+    background-color: #f1f3f6;
+    height: 100%;
+}
+
+.prod-sideBar{
+    width: 25%;
+    height: 100vh;
+    background-color: white;
+    margin: 10px 60px 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.prod-section{
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+.pTexts:hover{
+    cursor: pointer;
+    color: blue;
+}
+.overLaySec{
+    position: absolute;
+    background-color: blue;
+
+    width: 100%;
+    height:33px;
+    opacity: 0.2;
+    transition: all 0.1s ease;
+}
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 63%;
+    height: 100vh;
+    background-color: white;
+}
+
+.overLayText{
+    color: rgb(5, 5, 5);
+    font-size: 12px;
+    text-align: center;
+}
+
+.overLayImg{
+    background-image: linear-gradient(transparent 60%, rgb(191, 190, 190) 40%);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:0px;
+    border-radius: 50px;
+    opacity: 0;
+}
+.overLayImg:hover{
+    opacity: 0.6;
+}
+.addressContainer{
+    margin:20px;
+    border: 1px solid rgb(122, 121, 121);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addressBtn{
+    margin: 10px 20px 10px;
+    background-color: transparent;
+    color: black;
+    box-shadow: 0.2px 0.2px 2px rgb(115, 114, 114);
+    cursor: pointer;
+}

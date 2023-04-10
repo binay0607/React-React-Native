@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "378191039809",
+    "project_id": "audibuddy-f6df4",
+    "storage_bucket": "audibuddy-f6df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378191039809:android:5ec606b55e3f12d857e5c0",
+        "android_client_info": {
+          "package_name": "com.yanib.audiBuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378191039809-nnimerj75l8122m90jrhls8qfr4fg3ct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_WDhHPDS9rsTPT2L6ViiG9wKCRBeKy4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378191039809-nnimerj75l8122m90jrhls8qfr4fg3ct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

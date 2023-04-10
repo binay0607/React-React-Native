@@ -1,0 +1,40 @@
+.cartContainer{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    
+}
+
+.cart{
+    width: 65%;
+    height: 900px;
+    margin-right: 20px;
+    box-shadow: 0px 1px 3px rgb(116, 115, 115);
+    margin-left: 10px;
+
+}
+
+.price{
+    width: 31%;
+    height: 400px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px rgb(116, 115, 115);
+}
+
+.heading{
+     color: #a2a2a2;
+     margin-left: 20px;
+     padding-bottom: 20px;
+     border-bottom: 1px solid rgb(205, 203, 203);
+}
+
+.pricing{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.lowerP{
+    border-bottom: 1px solid rgb(205, 203, 203);
+}

@@ -1,0 +1,92 @@
+.productContainer{
+    display: flex;
+    width: 90%;
+    height: 570px;
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+
+.PimgContainer{
+ width: 30%;
+ height: 100%;
+}
+
+.PImg{
+    width: 90%;
+    height: 90%;
+}
+
+.PinfoContainer{
+    width: 55%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.mname:hover{
+    color: blue;
+}
+
+.ratings{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.assured{
+    background-color: #2774f0; 
+    color: white; 
+    margin-left: 35px; 
+    font-size: 13px;
+    padding: 5px 8px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-style: italic;
+    box-shadow: 0.5px 0px 2px rgb(100, 99, 99);
+}
+
+.btnContainer{
+    width: 100%;
+    margin-top: 40px;
+}
+.addBtn{
+    padding: 15px 90px;
+    background-color: #f69f2f;
+    cursor: pointer;
+}
+.buyBtn{
+    padding: 15px 90px;
+    margin-left: 30px;
+    background-color: #ef6332;
+    cursor: pointer;
+
+}
+
+.favoriteProduct{
+    position: absolute;
+    right: 60px;
+}
+
+.cartCofirm{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 39, 39);
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    left:36%;
+    transition: all 1s ease-out;
+    z-index: 10;
+}
+
+.productsContainer{
+    width: 95%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 60px;
+    
+}

@@ -1,0 +1,23 @@
+.searchBarContainer{
+    display: flex;
+    height: 30px;
+    background-color :white;
+    width: 450px;
+    padding: 10px 5px 4px;
+    margin-top: 4%;
+    border-bottom: 2px solid rgb(246, 173, 173);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.searchBarContainer input{
+    background-color: white;
+    border: none;
+    width: 90%;
+    font-size: 22px;
+    margin-left: 20px;
+    color: #48484a;
+}
+
+.searchBarContainer input:focus{
+    outline: 0;
+}

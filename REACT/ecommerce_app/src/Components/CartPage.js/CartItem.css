@@ -1,0 +1,94 @@
+.cartItemContainer{
+    width: 80%;
+    height: 220px;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 30px;
+
+
+}
+.CImgContainer{
+    width: 30%;
+    height: 100%;
+}
+
+.CInfoContainer{
+    width: 65%;
+    height: 100%;
+    margin-left: 20px;
+    
+}
+
+.CImg{
+    width: 70%;
+    height: 70%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.controllerContainer{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.controller{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.quantity{
+    height: 30px;
+    width: 40px;
+    background-color: #f7f7f7;
+    border: 1px solid rgb(156, 155, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.assured{
+    background-color: #2774f0; 
+    color: white; 
+    margin-left: 35px; 
+    font-size: 13px;
+    padding: 5px 8px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    font-style: italic;
+    box-shadow: 0.5px 0px 2px rgb(100, 99, 99);
+}
+
+
+.ratings{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btnC{
+    background-color: white;
+    color: rgb(35, 35, 35);
+    
+}
+.btnC:hover{
+    border: 0.5px solid rgb(193, 191, 191);
+}
+
+.ProductHeader{
+    text-decoration: none;
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
+}
+
+.ProductHeader:hover{
+    color: blue;
+}
