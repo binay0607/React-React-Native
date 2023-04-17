@@ -1,8 +1,0 @@
-{
-    "prettier.insertPragma": false,
-    "prettier.bracketSameLine": true,
-    "vs-code-prettier-eslint.prettierLast": true,
-    "prettier.eslintIntegration": true,
-    "prettier.stylelintIntegration": true,
-    "prettier.tslintIntegration": true
-}

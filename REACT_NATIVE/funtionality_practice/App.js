@@ -26,9 +26,13 @@ import ListAnimation from './Components/AnimationPractice/ListAnimation';
 import Test from './Components/AnimationPractice/Test';
 import AllShapes from './Components/ui/allShapes';
 import Waves from './Components/AnimationPractice/Waves';
+import ThreeD from './Components/ui/ThreeD';
+import FlatCorousel from './Components/ui/FlatCorousel';
+import PanResponderPage from './Components/AnimationPractice/PanResponder';
+import CylinderAnim from './Components/AnimationPractice/CylinderAnim';
 
 const App = () => {
-  return <Waves />;
+  return <CylinderAnim />;
 };
 
 const styles = StyleSheet.create({});
